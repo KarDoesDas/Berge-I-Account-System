@@ -110,7 +110,18 @@ public class AccountTransactionDto implements Serializable {
 
     @Override
     public int hashCode(){
-        return 1;
+        return Objects.hash(transactionId, accountTypeMnemonic, memberId, amount, transactionDate, details);
+    }
+
+    @Override
+    public String toString(){
+        return "AccountTransactionDto{" +
+                "transactionID=" + transactionId +
+                ", accountTypeMnemonic= '" + accountTypeMnemonic + '\'' +
+                ", memberId=" + memberId +
+                ", amount= " + amount +
+                ", transactionDate= " + transactionDate +
+                '}';
     }
 
 
