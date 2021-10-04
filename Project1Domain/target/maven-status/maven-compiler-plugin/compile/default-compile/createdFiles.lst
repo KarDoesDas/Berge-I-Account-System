@@ -1,0 +1,7 @@
+Berge_I\domain\service\GeneralResponse.class
+Berge_I\domain\persistence\AccountType.class
+Berge_I\domain\dto\AccountTransactionDto.class
+Berge_I\domain\persistence\AccountTransactionDetails.class
+Berge_I\domain\dto\AccountTransactionDetailsDto.class
+Berge_I\domain\dto\AccountTypeDto.class
+Berge_I\domain\persistence\AccountTransaction.class
